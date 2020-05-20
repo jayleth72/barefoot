@@ -4,7 +4,7 @@ import Simplehero from "../components/SimpleHero"
 import Banner from "../components/Banner"
 import { Link } from "gatsby"
 import About from "../components/Home/About"
-import Services from "../../../crank/src/components/home/Services"
+import Services from "../components/home/Services"
 
 export default () => (
   <Layout>
