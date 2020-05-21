@@ -1,7 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-const blog = () => {
+
+const blog = props => {
     return (
         <Layout>
              blog page
