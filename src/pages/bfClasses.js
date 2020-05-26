@@ -1,15 +1,10 @@
-import React from 'react'
-import Layout from '../components/Layout'
+import React from "react"
+import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import StyledHero from "../components/StyledHero"
 
-const events = () => {
-    return (
-        <Layout>
-             events page
-        </Layout>
-      
-    )
+const bfClasses = () => {
+  return <Layout>Classes</Layout>
 }
 
 export const query = graphql`
@@ -24,5 +19,4 @@ export const query = graphql`
   }
 `
 
-export default events
-
+export default bfClasses

@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
-import StyledHero from "../components/StyledHero"
 import Banner from "../components/Banner"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import About from "../components/home/About"
 import Services from "../components/home/Services"
 import { graphql } from "gatsby"
+import StyledHero from "../components/StyledHero"
 
 export default ({ data }) => (
   <Layout>
@@ -14,9 +14,9 @@ export default ({ data }) => (
         title="Be Inspired"
         info="Creative and applied learning support for homeschooling"
       >
-        <Link to="/about" className="btn-white">
-          Learn how to crank
-        </Link>
+        <AniLink fade to="/about" className="btn-white">
+          Learn more
+        </AniLink>
       </Banner>
     </StyledHero>
     <About />
