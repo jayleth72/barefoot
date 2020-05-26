@@ -10,12 +10,13 @@ const Contact = () => {
       <div className={styles.center}>
         <div>
           <p>
-            Have any questions or queries?  Feel free to get in touch with us!
+            Feel free to get in touch with us!&nbsp;&nbsp;
             We'll do our best to get back to you ASAP.
           </p>
         </div>
 
-        <form className={styles.form}>
+        <form action="https://formspree.io/linda.letheby@gmail.com"
+          method="POST"className={styles.form}>
           <div>
             <input
               type="text"
