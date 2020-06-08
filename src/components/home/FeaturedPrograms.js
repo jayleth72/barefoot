@@ -32,12 +32,14 @@ const FeaturedPrograms = () => {
   const programs = response.featuredPrograms.edges
 
   return (
-    <section className={styles.tours}>
+    <section className={styles.programs}>
       <Title title="featured" subtitle="programs" />
       hello from featured tours
-      {programs.map(({ node }) => {
-        return <Program key={node.contentful_id} program={node} />
-      })}
+      <div className={styles.center}>
+        {programs.map(({ node }) => {
+          return <Program key={node.contentful_id} program={node} />
+        })}
+      </div>
       <AniLink fade to="/programs" className="btn-primary">
         All Programs
       </AniLink>
