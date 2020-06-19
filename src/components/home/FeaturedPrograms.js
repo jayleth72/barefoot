@@ -34,8 +34,7 @@ const FeaturedPrograms = () => {
   return (
     <section className={styles.programs}>
       <Title title="featured" subtitle="programs" />
-      hello from featured tours
-      <div className={styles.center}>
+       <div className={styles.center}>
         {programs.map(({ node }) => {
           return <Program key={node.contentful_id} program={node} />
         })}
