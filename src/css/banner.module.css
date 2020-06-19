@@ -14,8 +14,11 @@
   letter-spacing: 6px;
 }
 .banner p {
+  color: #fff!important;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #000;
   width: 85%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
