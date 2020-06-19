@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Chewy");
 
 /* CSS variables */
 :root {
@@ -52,6 +52,7 @@ a {
   align-items: center;
 }
 .btn-white,
+.btn-hero,
 .btn-primary {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
@@ -62,11 +63,11 @@ a {
   transition: var(--mainTransition);
   cursor: pointer;
 }
-.btn-white:hover {
+.btn-white:hover, .btn-hero:hover {
   background: var(--mainWhite);
   color: var(--primaryColor);
 }
-.btn-primary {
+.btn-primary, .btn-hero {
   background: var(--primaryColor);
   color: var(--mainWhite);
   border: 2px solid var(--primaryColor);
@@ -75,6 +76,7 @@ a {
   background: transparent;
   color: var(--primaryColor);
 }
+
 /* .gatsby-image-wrapper {
   max-height: 600px;
   box-shadow: var(--lightShadow);

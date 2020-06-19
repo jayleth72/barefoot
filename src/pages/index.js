@@ -13,9 +13,9 @@ export default ({ data }) => (
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
         title="Be Inspired"
-        info="Natural Learning Support"
+        info="Education you can feel"
       >
-        <AniLink fade to="/about" className="btn-white">
+        <AniLink fade to="/about" className="btn-hero">
           Learn more
         </AniLink>
       </Banner>

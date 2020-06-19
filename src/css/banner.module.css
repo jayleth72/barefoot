@@ -14,11 +14,12 @@
   letter-spacing: 6px;
 }
 .banner p {
-  color: #000!important;
+  font-family: "Chewy", sans-serif;
+  color:var(--primaryColor);
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-color: #fff;
   width: 85%;
-  font-size: 2rem;
+  font-size: 4rem;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
