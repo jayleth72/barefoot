@@ -18,7 +18,7 @@
   color:var(--primaryColor);
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fff;
-  width: 85%;
+  width: 100%;
   font-size: 2rem;
   margin: 0 auto;
   margin-bottom: 2rem;
