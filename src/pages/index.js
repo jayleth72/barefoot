@@ -13,7 +13,7 @@ export default ({ data }) => (
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
         title="Be Inspired"
-        info="Creative and applied learning support for homeschooling"
+        info="Natural Learning Support"
       >
         <AniLink fade to="/about" className="btn-white">
           Learn more
