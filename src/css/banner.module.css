@@ -16,10 +16,10 @@
 .banner p {
   font-family: "Chewy", sans-serif;
   color:var(--primaryColor);
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fff;
   width: 85%;
-  font-size: 4rem;
+  font-size: 2rem;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
