@@ -24,7 +24,7 @@ const About = () => {
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
-            {/* <img src={img} alt="about barefoot homeschooling" /> */}
+            {/* <img src={img} alt="about garden homeschooling" /> */}
             <Img
               fluid={aboutImage.childImageSharp.fluid}
               alt="A collection of feet"
@@ -32,7 +32,7 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>The Barefoot Story</h4>
+          <h4>The Garden Homeschool Story</h4>
           <p>
             Building a child's sense of "Belonging" to a meaningful and
             nurturing Community so they feel hope of "Becoming" a valued,

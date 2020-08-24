@@ -19,16 +19,4 @@ export default [
     path: "/programs",
     text: "programs",
   },
-  {
-    path: "/bfClasses",
-    text: "classes",
-  },
-  {
-    path: "/people",
-    text: "people",
-  },
-  {
-    path: "/testimonials",
-    text: "testimonials",
-  },
 ]

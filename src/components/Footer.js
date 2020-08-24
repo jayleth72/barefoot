@@ -31,7 +31,7 @@ const Footer = () => {
         })}
       </div>
       <div className={styles.copyright}>
-        copyright &copy; barefoot homeschooling {new Date().getFullYear()} all
+        copyright &copy; Garden homeschooling {new Date().getFullYear()} all
         rights reserved
       </div>
     </footer>

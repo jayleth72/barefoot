@@ -73,5 +73,5 @@
 .details {
   color: var(--darkGrey);
   text-transform: uppercase;
-  text-align: right;
+  text-align: left;
 }

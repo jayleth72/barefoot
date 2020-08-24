@@ -13,7 +13,7 @@ export default ({ data }) => (
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
         title="Be Inspired"
-        info="Education you can feel"
+        info="Learning with Nature by their side"
       >
         <AniLink fade to="/about" className="btn-hero">
           Learn more
@@ -28,7 +28,7 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    defaultBcg: file(relativePath: { eq: "kyahbcg.jpg" }) {
+    defaultBcg: file(relativePath: { eq: "gardenPath.jpg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 4160) {
           ...GatsbyImageSharpFluid_withWebp
