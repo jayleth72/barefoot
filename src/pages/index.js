@@ -12,8 +12,8 @@ export default ({ data }) => (
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
-        title="Be Inspired"
-        info="Learning with Nature by their side"
+        title="Learning with Nature by their side"
+        info=""
       >
         <AniLink fade to="/about" className="btn-hero">
           Learn more

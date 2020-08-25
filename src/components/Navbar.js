@@ -4,7 +4,7 @@ import styles from "../css/navbar.module.css"
 import { FaAlignRight } from "react-icons/fa"
 import links from "../constants/links"
 import socialIcons from "../constants/social-icons"
-import logo from "../images/bflogo3.png"
+import logo from "../images/gslogo.png"
 
 const Navbar = () => {
   const [isOpen, setNav] = useState(false)
@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
           <AniLink fade to="/">
-            <img src={logo} alt="barefoot logo" />
+            <img src={logo} alt="garden school logo" />
           </AniLink>
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
             <FaAlignRight className={styles.logoIcon} />
