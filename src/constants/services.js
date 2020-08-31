@@ -7,18 +7,18 @@ export default [
     icon: <GiAnatomy />,
     title: "Body",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "We move your body",
   },
   {
     icon: <GiThink />,
     title: "Mind",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "We activate your mind",
   },
   {
     icon: <FaHandHoldingHeart />,
     title: "Hand",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "We are hands on and hands in",
   },
 ]
