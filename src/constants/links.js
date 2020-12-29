@@ -16,7 +16,7 @@ export default [
     text: "contact",
   },
   {
-    path: "/programs",
-    text: "programs",
+    /*path: "/programs",
+    text: "programs",*/
   },
 ]
