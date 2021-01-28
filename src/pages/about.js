@@ -2,19 +2,20 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { graphql } from "gatsby"
 import StyledHero from "../components/StyledHero"
+import About from "../components/home/About"
 
-const about = () => {
-    return (
-        <Layout>
-             about page
-        </Layout>
-      
-    )
+const about = ({data}) => {
+  return (
+    <Layout>
+      <StyledHero img={data.blogBcg.childImageSharp.fluid} />
+	  <About />
+    </Layout>
+  )
 }
 
 export const query = graphql`
   query {
-    defaultBcg: file(relativePath: { eq: "defaultBcg.jpeg" }) {
+    blogBcg: file(relativePath: { eq: "about.jpg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 4160) {
           ...GatsbyImageSharpFluid_withWebp
@@ -23,5 +24,4 @@ export const query = graphql`
     }
   }
 `
-
 export default about
