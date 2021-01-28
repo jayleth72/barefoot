@@ -11,7 +11,7 @@ export default [
   },
   {
     icon: <FaInstagramSquare />,
-    url: "https://www.instagram.com/handheartand_/",
+    url: "https://www.instagram.com/gardenhomeschool/",
   },
   {
     icon: <FaYoutube />,
