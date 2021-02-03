@@ -8,7 +8,7 @@ const about = ({data}) => {
   return (
     <Layout>
       <StyledHero img={data.blogBcg.childImageSharp.fluid} />
-	  <About />
+	  <About showReadMore={false} />
     </Layout>
   )
 }

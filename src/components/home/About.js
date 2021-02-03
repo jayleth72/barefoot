@@ -16,8 +16,9 @@ const getAbout = graphql`
     }
   }
 `
-const About = () => {
+const About = (props) => {
   const { aboutImage } = useStaticQuery(getAbout)
+  const showReadMore = props.showReadMore
   return (
     <section className={styles.about}>
       <Title title="about" subtitle="us" />
@@ -38,9 +39,11 @@ const About = () => {
             nurturing Community so they feel hope of "Becoming" a valued,
             influential and passionate member of our Society.
           </p>
-          <button type="button" className="btn-primary">
-            read more
-          </button>
+		  if(showReadMore) {
+          	<button type="button" className="btn-primary">
+            	read more
+          	</button>
+		  }	
         </article>
       </div>
     </section>

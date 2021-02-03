@@ -20,7 +20,7 @@ export default ({ data }) => (
         </AniLink>
       </Banner>
     </StyledHero>
-    <About />
+    <About showReadMore={true} />
     <Services />
    
   </Layout>
