@@ -3,7 +3,8 @@ import Title from "../Title"
 import styles from "../../css/about.module.css"
 // import img from "../../images/defaultBcg.jpeg"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import Img from "gatsby-image
+import ReadMoreButton from "../../components/ReadMoreButton"
 
 const getAbout = graphql`
   query aboutImage {
