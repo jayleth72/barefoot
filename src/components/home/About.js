@@ -26,7 +26,7 @@ const About = (props) => {
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
-            {/* <img src={img} alt="about garden homeschooling" /> */}
+            
             <Img
               fluid={aboutImage.childImageSharp.fluid}
               alt="A collection of feet"
