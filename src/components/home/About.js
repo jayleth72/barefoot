@@ -40,6 +40,8 @@ const About = (props) => {
             nurturing Community so they feel hope of "Becoming" a valued,
             influential and passionate member of our Society.
           </p>
+		  console.log("Show read more in About = ", showReadMore)
+		  
 		  <ReadMoreButton showReadMore = {showReadMore} />
 		 
         </article>
