@@ -17,9 +17,9 @@ const getAbout = graphql`
     }
   }
 `
-const About = () => {
+const About = (props) => {
   const { aboutImage } = useStaticQuery(getAbout)
-  {/*let showReadMore = props */}
+  let showReadMore = props
   return (
     <section className={styles.about}>
       <Title title="about" subtitle="us" />
