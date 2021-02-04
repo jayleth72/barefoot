@@ -17,7 +17,7 @@ const getAbout = graphql`
     }
   }
 `
-const About = (props) => {
+const About = props => {
   const { aboutImage } = useStaticQuery(getAbout)
   {/*let showReadMore = props */}
   return (
