@@ -3,10 +3,11 @@ import React from "react"
 const ReadMoreButton = props => {
   let { showReadMore } = props
   if (showReadMore) {
-    return 
+    return (
           	<button type="button" className="btn-primary">
-            	read more
+            	read mores
 			</button>
+	)
   } else {
     return null
   }
