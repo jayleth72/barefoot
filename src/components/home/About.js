@@ -19,7 +19,7 @@ const getAbout = graphql`
 `
 const About = (props) => {
   const { aboutImage } = useStaticQuery(getAbout)
-  const { showReadMore } = useState(props.showReadMore)
+  let showReadMore = props
   return (
     <section className={styles.about}>
       <Title title="about" subtitle="us" />
@@ -40,7 +40,7 @@ const About = (props) => {
             nurturing Community so they feel hope of "Becoming" a valued,
             influential and passionate member of our Society.
           </p>
-		 {/* <ReadMoreButton showReadMore = {showReadMore} /> */>
+		  <ReadMoreButton showReadMore = {showReadMore} /> 
 		 
         </article>
       </div>
