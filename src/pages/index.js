@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../components/Layout"
 import Banner from "../components/Banner"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
@@ -9,6 +9,7 @@ import StyledHero from "../components/StyledHero"
 import FeaturedPrograms from "../components/home/FeaturedPrograms"
 
 export default ({ data }) => (
+  
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
