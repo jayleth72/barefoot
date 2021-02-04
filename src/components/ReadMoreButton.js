@@ -2,8 +2,7 @@ import React from "react"
 
 const ReadMoreButton = props => {
   let { showReadMore } = props
-  console.log(showReadMore)
-  {showReadMore.state ? console.log("butt") : console.log("anus")}
+   
   if (showReadMore.state) {
 	 console.log("cunt") 
     return (
