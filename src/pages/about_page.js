@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import StyledHero from "../components/StyledHero"
 import About from "../components/home/About"
 
-const about = ({data}) => {
+const about_page = ({data}) => {
   const showReadMore = useState(false)	
   return (
     <Layout>
@@ -25,4 +25,4 @@ export const query = graphql`
     }
   }
 `
-export default about
+export default about_page

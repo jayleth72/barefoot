@@ -4,7 +4,7 @@ export default [
     text: "home",
   },
   {
-    path: "/about",
+    path: "/about_page",
     text: "about",
   },
   {
