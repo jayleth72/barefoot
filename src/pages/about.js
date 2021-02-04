@@ -1,14 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Layout from '../components/Layout'
 import { graphql } from "gatsby"
 import StyledHero from "../components/StyledHero"
 import About from "../components/home/About"
 
 const about = ({data}) => {
+  const showReadMore = useState(false)	
   return (
     <Layout>
       <StyledHero img={data.blogBcg.childImageSharp.fluid} />
-	  <About showReadMore={false} />
+	  <About showReadMore={showReadMore} />
     </Layout>
   )
 }
