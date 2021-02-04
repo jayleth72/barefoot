@@ -2,7 +2,7 @@ import React from "react"
 
 const ReadMoreButton = props => {
   let { showReadMore } = props
-  if !(showReadMore) {
+  if (!showReadMore) {
     return (
           	<button type="button" className="btn-primary">
             	read more
