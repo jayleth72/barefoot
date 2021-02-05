@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
 const ReadMoreButton = props => {
-  let { showReadMore } = props
+  let { showReadMore } = props.state
   console.log(showReadMore) 
   if (showReadMore) {
 	 console.log("butthole")
