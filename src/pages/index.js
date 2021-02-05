@@ -9,7 +9,7 @@ import StyledHero from "../components/StyledHero"
 import FeaturedPrograms from "../components/home/FeaturedPrograms"
 
 const index = ({ data }) => {
-  const showReadMore = useState(true)
+  
   return (
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
@@ -22,7 +22,11 @@ const index = ({ data }) => {
         </AniLink>
       </Banner>
     </StyledHero>
-	<About showReadMore={showReadMore} />   
+	<About>
+		<button type="button" className="btn-primary">
+           	read more
+		</button>
+	</About>	
     <Services />
    
   </Layout>

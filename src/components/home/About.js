@@ -17,7 +17,7 @@ const getAbout = graphql`
     }
   }
 `
-const About = (props) => {
+const About = ({children}) => {
   const { aboutImage } = useStaticQuery(getAbout)
   const showReadMore = useState(props)
    return (
@@ -41,7 +41,7 @@ const About = (props) => {
             influential and passionate member of our Society.
           </p>
 		  
-		  <ReadMoreButton showReadMore = {showReadMore} />
+		  {children}
 		 
         </article>
       </div>

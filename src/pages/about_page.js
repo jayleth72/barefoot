@@ -9,7 +9,7 @@ const about_page = ({data}) => {
   return (
     <Layout>
       <StyledHero img={data.blogBcg.childImageSharp.fluid} />
-	  <About showReadMore={showReadMore} />
+	  <About />
     </Layout>
   )
 }
