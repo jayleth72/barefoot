@@ -9,7 +9,7 @@ import StyledHero from "../components/StyledHero"
 import FeaturedPrograms from "../components/home/FeaturedPrograms"
 
 const index = ({ data }) => {
-  //const showReadMore = useState(true)
+  const showReadMore = useState(true)
   return (
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
