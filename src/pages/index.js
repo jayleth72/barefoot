@@ -8,8 +8,9 @@ import { graphql } from "gatsby"
 import StyledHero from "../components/StyledHero" 
 import FeaturedPrograms from "../components/home/FeaturedPrograms"
 
-export default ({ data }) => (
-  //const showReadMore = useState(true)
+const index = ({ data }) => (
+  const showReadMore = useState(true)
+  return (
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
@@ -25,7 +26,8 @@ export default ({ data }) => (
     <Services />
    
   </Layout>
-)
+	)
+  )
 
 export const query = graphql`
   query {
@@ -38,3 +40,5 @@ export const query = graphql`
     }
   }
 `
+
+export default index
