@@ -5,7 +5,7 @@ import StyledHero from "../components/StyledHero"
 import About from "../components/home/About"
 
 const about_page = ({data}) => {
-  const showReadMore = useState(false)	
+  
   return (
     <Layout>
       <StyledHero img={data.blogBcg.childImageSharp.fluid} />
