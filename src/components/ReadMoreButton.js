@@ -1,7 +1,7 @@
-import React from "react"
+import React, useState from "react"
 
 const ReadMoreButton = props => {
-  let { showReadMore } = props
+  let { showReadMore } = useState(props)
    
   if (showReadMore.state) {
 	 console.log("cunt") 
