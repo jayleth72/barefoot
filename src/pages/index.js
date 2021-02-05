@@ -22,7 +22,7 @@ const index = ({ data }) => (
         </AniLink>
       </Banner>
     </StyledHero>
-   <//* <About showReadMore={showReadMore} /> */
+   
     <Services />
    
   </Layout>
