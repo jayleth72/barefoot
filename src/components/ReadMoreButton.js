@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 const ReadMoreButton = props => {
   let { showReadMore } = useState(props)
-   
+  console.log(showReadMore) 
   if (showReadMore) {
 	 
     return (
