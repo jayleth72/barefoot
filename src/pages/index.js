@@ -9,7 +9,7 @@ import StyledHero from "../components/StyledHero"
 import FeaturedPrograms from "../components/home/FeaturedPrograms"
 
 export default ({ data }) => (
-  {const showReadMore = useState(true)}
+  const showReadMore = useState(true)
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
