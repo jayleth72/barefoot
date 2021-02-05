@@ -8,7 +8,7 @@ import { graphql } from "gatsby"
 import StyledHero from "../components/StyledHero" 
 import FeaturedPrograms from "../components/home/FeaturedPrograms"
 
-const index = ({ data }) => (
+const index = ({ data }) => {
   //const showReadMore = useState(true)
   return (
   <Layout>
@@ -27,7 +27,7 @@ const index = ({ data }) => (
    
   </Layout>
 	)
-  )
+  }
 
 export const query = graphql`
   query {
