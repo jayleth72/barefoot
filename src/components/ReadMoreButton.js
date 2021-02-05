@@ -1,10 +1,10 @@
 import React, { useState } from "react"
 
 const ReadMoreButton = props => {
-  let { showReadMore } = useState(props)
+  let { showReadMore } = props
   console.log(showReadMore) 
   if (showReadMore) {
-	 
+	 console.log("butthole")
     return (
           	<button type="button" className="btn-primary">
             	read more
