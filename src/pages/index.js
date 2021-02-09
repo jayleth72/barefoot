@@ -28,7 +28,7 @@ const index = ({ data }) => {
 		</AniLink>
 	</About>	
     <Services />
-   
+    <FeaturedPrograms />
   </Layout>
 	)
   }
