@@ -33,14 +33,14 @@ const FeaturedPrograms = () => {
 
   return (
     <section className={styles.programs}>
-      <Title title="featured" subtitle="programs" />
+      <Title title="featured" subtitle="classes" />
        <div className={styles.center}>
         {programs.map(({ node }) => {
           return <Program key={node.contentful_id} program={node} />
         })}
       </div>
       <AniLink fade to="/programs" className="btn-primary">
-        All Programs
+        All Classes
       </AniLink>
     </section>
   )
