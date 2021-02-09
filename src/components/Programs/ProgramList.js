@@ -19,7 +19,7 @@ export default class ProgramList extends Component {
     render() {
         return (
             <section className={styles.clients}>
-                <Title title="Barefoot" subtitle="Programs" />
+                <Title title="Garden School" subtitle="Classes" />
                 <div className={styles.center}>
                     {
                         this.state.sortedPrograms.map(({ node }) => {
