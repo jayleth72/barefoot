@@ -23,9 +23,9 @@ const index = ({ data }) => {
       </Banner>
     </StyledHero>
 	<About>
-		<button type="button" className="btn-primary">
+		<AniLink fade to="/about_page" className="btn-primary">
            	read more
-		</button>
+		</AniLink>
 	</About>	
     <Services />
    
