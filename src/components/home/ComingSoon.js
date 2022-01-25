@@ -11,7 +11,7 @@ const ComingSoon = ({comingSoonText}) => {
     </div>
   
   )
-
+}
 
 export default styled(ComingSoon)`
 text-transform: uppercase;
