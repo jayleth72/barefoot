@@ -38,3 +38,4 @@ span {
         margin: 0 0.35rem
     }
 }
+`
