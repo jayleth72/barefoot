@@ -14,7 +14,7 @@ const ComingSoon = ({comingSoonText}) => {
 }
 
 
-export default styled(Title)`
+export default styled(ComingSoon)`
 text-transform: uppercase;
 font-size: 1.3rem;
 margin-bottom: 2rem;
