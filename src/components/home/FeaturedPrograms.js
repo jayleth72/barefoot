@@ -40,10 +40,10 @@ const FeaturedPrograms = () => {
           return <Program key={node.contentful_id} program={node} />
         })}
       </div> */}
-      <ComingSoon ComingSoonText="New online classes coming soon" />
-      <AniLink fade to="/programs" className="btn-primary">
+      <ComingSoon comingSoonText="New online classes coming soon" />
+      {/* <AniLink fade to="/programs" className="btn-primary">
         All Classes
-      </AniLink>
+      </AniLink> */}
     </section>
   )
 }
