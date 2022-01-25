@@ -1,4 +1,5 @@
 import React from "react"
+import styled from "styled-components"
 
 const ComingSoon = ({comingSoonText}) => {
   
@@ -12,7 +13,6 @@ const ComingSoon = ({comingSoonText}) => {
   )
 }
 
-export default ComingSoon
 
 export default styled(Title)`
 text-transform: uppercase;
