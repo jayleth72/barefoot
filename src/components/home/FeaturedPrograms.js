@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Title from "../Title"
 import styles from "../../css/items.module.css"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import ComingSoon from "./ComingSoon"
 
 const getPrograms = graphql`
   query {
@@ -34,11 +35,12 @@ const FeaturedPrograms = () => {
   return (
     <section className={styles.programs}>
       <Title title="featured" subtitle="classes" />
-       <div className={styles.center}>
+       {/* <div className={styles.center}>
         {programs.map(({ node }) => {
           return <Program key={node.contentful_id} program={node} />
         })}
-      </div>
+      </div> */}
+      <ComingSoon ComingSoonText="New online classes coming soon" />
       <AniLink fade to="/programs" className="btn-primary">
         All Classes
       </AniLink>
