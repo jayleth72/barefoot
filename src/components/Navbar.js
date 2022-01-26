@@ -4,7 +4,7 @@ import styles from "../css/navbar.module.css"
 import { FaAlignRight } from "react-icons/fa"
 import links from "../constants/links"
 import socialIcons from "../constants/social-icons"
-import logo from "../images/Gs_logo_banner_1.png"
+import logo from "../images/gs2022_logo.png"
 
 const Navbar = () => {
   const [isOpen, setNav] = useState(false)
