@@ -3,7 +3,7 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: "Barefoot Homeschooling",
+    title: "Garden Homeschooling",
     description: "Homeschooling workshops, events and guidance",
     author: "jay.letheby@gmail.com",
   },
@@ -23,9 +23,9 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
-    // `gatsby-plugin-sharp`,
-    // `gatsby-transformer-sharp`,
-    // "gatsby-plugin-sass",
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    "gatsby-plugin-sass",
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-playground`,
